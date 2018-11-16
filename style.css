@@ -1,0 +1,32 @@
+body, .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: #111111;
+  height: 90vh;
+}
+
+.container, .personalc {
+  width: 400px;
+  font-family: fantasy;
+}
+
+.container {
+  background-color: #0A0A0A;
+  border: 2px dashed #666666;
+  font-size: 30px;
+  color: #FFFFFF;
+  height: 80px;
+}
+
+.personalc {
+  margin: 10px 0px;
+  font-size: 14px;
+  color: #666666;
+  text-align: right;
+  height: 20px;
+}
